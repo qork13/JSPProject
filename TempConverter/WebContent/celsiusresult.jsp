@@ -8,8 +8,9 @@
 <title>Celsius Conversion Result</title>
 </head>
 <body>
+<!--  -->
 <p> There are ${userCelsius.getFarenheit()} degrees F in ${userCelsius.getTemp()} degrees C. </p></br>
 <a href="ftoc.jsp">Farenheit to Celsius</a><br>
-<a href="index.jsp">Back to Landing Page</a>
+<a href="ctof.jsp">Do another Celsius to Farenheit conversion</a>
 </body>
 </html>

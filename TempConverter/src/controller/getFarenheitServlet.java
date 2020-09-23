@@ -31,10 +31,13 @@ public class getFarenheitServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		//Declare userFarenheit variable and get the input from the ftoc.jsp
 		String userFarenheit = request.getParameter("userFarenheit");
 		
+		//Create a new TempConverter object and parse and send the input to the object to convert
 		TempConverter userTemp = new TempConverter(Double.parseDouble(userFarenheit));
 		
+		//Get converted value and send the value to the farenheitresult.jsp to display to the user
 		request.setAttribute("userFarenheit", userTemp);
 		
 		getServletContext().getRequestDispatcher("/farenheitresult.jsp").forward(request, response);
