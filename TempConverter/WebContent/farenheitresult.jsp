@@ -12,7 +12,7 @@
 <p> There are ${userFarenheit.getCelsius()} degrees C in ${userFarenheit.getTemp()} degrees F. </p></br>
 <!-- Links to the initial landing page or to switch over to Celsius to Farenheit -->
 <a href="ctof.jsp">Celsius to Farenheit</a><br>
-<a href="ftoc.jsp">Do another Farenheit to Celsius conversion</a>
+<a href="ftoc.jsp">Do another Farenheit to Celsius conversion</a></br>
 <a href="index.jsp">Back to home</a>
 </body>
 </html>
