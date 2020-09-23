@@ -13,5 +13,6 @@
 <!-- Links to the initial landing page or to switch over to Celsius to Farenheit -->
 <a href="ctof.jsp">Celsius to Farenheit</a><br>
 <a href="ftoc.jsp">Do another Farenheit to Celsius conversion</a>
+<a href="index.jsp">Back to home</a>
 </body>
 </html>
