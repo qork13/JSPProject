@@ -31,10 +31,13 @@ public class getCelsiusServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		//Declare userCelsius variable and grab the input from the ctof.jsp
 		String userCelsius = request.getParameter("userCelsius");
 		
+		//Create a new TempConverter object and parse the input to send to the object
 		TempConverter userTemp = new TempConverter(Double.parseDouble(userCelsius));
 		
+		//Get the converted temperature back and send the results to the celsiusresult.jsp
 		request.setAttribute("userCelsius", userTemp);
 		
 		getServletContext().getRequestDispatcher("/celsiusresult.jsp").forward(request, response);

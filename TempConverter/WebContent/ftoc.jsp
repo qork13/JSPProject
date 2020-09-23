@@ -7,6 +7,7 @@
 <title>Farenheit to Celsius</title>
 </head>
 <body>
+<!-- Take farenheit input from text field and submit button to send to getFarenheit servlet -->
 <h1>Farenheit to Celsius Converter</h1>
 <form action="getFarenheitServlet" method="post">
 Enter the degrees Farenheit in a decimal number:

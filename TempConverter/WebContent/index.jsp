@@ -7,6 +7,7 @@
 <title>TempConverter Home page</title>
 </head>
 <body>
+<!-- Initial landing page to allow user to select which temp they want to convert -->
 <h1>Temp Converter</h1>
 <p>Welcome to the temp converter. Please select the type of conversion below</p>
 <a href="ftoc.jsp">Farenheit to Celsius</a></br>
